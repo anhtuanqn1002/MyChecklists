@@ -13,6 +13,7 @@
 		36F8CCFA1BF222D2008B1AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F8CCF81BF222D2008B1AF1 /* Main.storyboard */; };
 		36F8CCFC1BF222D2008B1AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F8CCFB1BF222D2008B1AF1 /* Assets.xcassets */; };
 		36F8CCFF1BF222D2008B1AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F8CCFD1BF222D2008B1AF1 /* LaunchScreen.storyboard */; };
+		36F8CD081BF22D7B008B1AF1 /* ChecklistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8CD071BF22D7B008B1AF1 /* ChecklistItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		36F8CCFB1BF222D2008B1AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F8CCFE1BF222D2008B1AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36F8CD001BF222D2008B1AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F8CD061BF22D7B008B1AF1 /* ChecklistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistItem.h; sourceTree = "<group>"; };
+		36F8CD071BF22D7B008B1AF1 /* ChecklistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				36F8CCF51BF222D2008B1AF1 /* ViewController.h */,
 				36F8CCF61BF222D2008B1AF1 /* ViewController.m */,
 				36F8CCF81BF222D2008B1AF1 /* Main.storyboard */,
+				36F8CD061BF22D7B008B1AF1 /* ChecklistItem.h */,
+				36F8CD071BF22D7B008B1AF1 /* ChecklistItem.m */,
 				36F8CCFB1BF222D2008B1AF1 /* Assets.xcassets */,
 				36F8CCFD1BF222D2008B1AF1 /* LaunchScreen.storyboard */,
 				36F8CD001BF222D2008B1AF1 /* Info.plist */,
@@ -152,6 +157,7 @@
 				36F8CCF71BF222D2008B1AF1 /* ViewController.m in Sources */,
 				36F8CCF41BF222D2008B1AF1 /* AppDelegate.m in Sources */,
 				36F8CCF11BF222D2008B1AF1 /* main.m in Sources */,
+				36F8CD081BF22D7B008B1AF1 /* ChecklistItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
