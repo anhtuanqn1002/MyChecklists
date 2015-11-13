@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36AE92681BF5DF9900428A4F /* ShowDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AE92671BF5DF9900428A4F /* ShowDescriptionViewController.m */; };
 		36E6473D1BF3940600FACDE5 /* AddItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6473C1BF3940600FACDE5 /* AddItem.m */; };
 		36F8CCF11BF222D2008B1AF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8CCF01BF222D2008B1AF1 /* main.m */; };
 		36F8CCF41BF222D2008B1AF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8CCF31BF222D2008B1AF1 /* AppDelegate.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36AE92661BF5DF9900428A4F /* ShowDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDescriptionViewController.h; sourceTree = "<group>"; };
+		36AE92671BF5DF9900428A4F /* ShowDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDescriptionViewController.m; sourceTree = "<group>"; };
 		36E6473B1BF3940600FACDE5 /* AddItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItem.h; sourceTree = "<group>"; };
 		36E6473C1BF3940600FACDE5 /* AddItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItem.m; sourceTree = "<group>"; };
 		36F8CCEC1BF222D2008B1AF1 /* MyChecklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChecklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +72,8 @@
 				36F8CCF51BF222D2008B1AF1 /* ViewController.h */,
 				36F8CCF61BF222D2008B1AF1 /* ViewController.m */,
 				36F8CCF81BF222D2008B1AF1 /* Main.storyboard */,
+				36AE92661BF5DF9900428A4F /* ShowDescriptionViewController.h */,
+				36AE92671BF5DF9900428A4F /* ShowDescriptionViewController.m */,
 				36E6473B1BF3940600FACDE5 /* AddItem.h */,
 				36E6473C1BF3940600FACDE5 /* AddItem.m */,
 				36F8CD061BF22D7B008B1AF1 /* ChecklistItem.h */,
@@ -163,6 +168,7 @@
 				36F8CCF71BF222D2008B1AF1 /* ViewController.m in Sources */,
 				36F8CCF41BF222D2008B1AF1 /* AppDelegate.m in Sources */,
 				36F8CCF11BF222D2008B1AF1 /* main.m in Sources */,
+				36AE92681BF5DF9900428A4F /* ShowDescriptionViewController.m in Sources */,
 				36F8CD081BF22D7B008B1AF1 /* ChecklistItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

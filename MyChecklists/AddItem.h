@@ -19,7 +19,7 @@
 @interface AddItem : UITableViewController <UITextFieldDelegate>
 
 @property (nonatomic, assign) id<AddItemDelegate> delegate;
-@property (nonatomic, weak) ChecklistItem *itemSend;
+@property (nonatomic, strong) ChecklistItem *itemSend;
 
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UITextField *dueDateTextField;

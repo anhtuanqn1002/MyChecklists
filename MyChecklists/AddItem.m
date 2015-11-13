@@ -18,12 +18,13 @@
 
 - (IBAction)doneButton:(id)sender {
 //    _itemSend.title =
+    self.itemSend = [[ChecklistItem alloc] init];
     self.itemSend.title = self.titleTextField.text;
     self.itemSend.dueDate = self.dueDateTextField.text;
     self.itemSend.descriptionItem = self.descriptionTextField.text;
     
     [[self delegate] sentItem:self.itemSend];
-    
+    NSLog(@"%@ %@ %@", self.itemSend.title, self.itemSend.dueDate, self.itemSend.descriptionItem);
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

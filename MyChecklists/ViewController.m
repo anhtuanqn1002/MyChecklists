@@ -88,7 +88,9 @@
 
 -(void)sentItem:(ChecklistItem *)itemSend {
     _itemRec = itemSend;
-    NSLog(@"%@ %@ %@", _itemRec.title, _itemRec.dueDate, _itemRec.descriptionItem);
+//    NSLog(@"%@ %@ %@", _itemRec.title, _itemRec.dueDate, _itemRec.descriptionItem);
+    [self.listItem addObject:_itemRec];
+    [self.tableView reloadData];
 }
 
 @end
