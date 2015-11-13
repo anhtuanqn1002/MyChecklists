@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36E6473D1BF3940600FACDE5 /* AddItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6473C1BF3940600FACDE5 /* AddItem.m */; };
 		36F8CCF11BF222D2008B1AF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8CCF01BF222D2008B1AF1 /* main.m */; };
 		36F8CCF41BF222D2008B1AF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8CCF31BF222D2008B1AF1 /* AppDelegate.m */; };
 		36F8CCF71BF222D2008B1AF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8CCF61BF222D2008B1AF1 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36E6473B1BF3940600FACDE5 /* AddItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItem.h; sourceTree = "<group>"; };
+		36E6473C1BF3940600FACDE5 /* AddItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItem.m; sourceTree = "<group>"; };
 		36F8CCEC1BF222D2008B1AF1 /* MyChecklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChecklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F8CCF01BF222D2008B1AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36F8CCF21BF222D2008B1AF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				36F8CCF51BF222D2008B1AF1 /* ViewController.h */,
 				36F8CCF61BF222D2008B1AF1 /* ViewController.m */,
 				36F8CCF81BF222D2008B1AF1 /* Main.storyboard */,
+				36E6473B1BF3940600FACDE5 /* AddItem.h */,
+				36E6473C1BF3940600FACDE5 /* AddItem.m */,
 				36F8CD061BF22D7B008B1AF1 /* ChecklistItem.h */,
 				36F8CD071BF22D7B008B1AF1 /* ChecklistItem.m */,
 				36F8CCFB1BF222D2008B1AF1 /* Assets.xcassets */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E6473D1BF3940600FACDE5 /* AddItem.m in Sources */,
 				36F8CCF71BF222D2008B1AF1 /* ViewController.m in Sources */,
 				36F8CCF41BF222D2008B1AF1 /* AppDelegate.m in Sources */,
 				36F8CCF11BF222D2008B1AF1 /* main.m in Sources */,
@@ -306,6 +312,7 @@
 				36F8CD051BF222D2008B1AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddItem.h"
 
-@interface ViewController : UITableViewController
+@interface ViewController : UITableViewController <UITableViewDataSource, AddItemDelegate>
 
+@property (nonatomic, strong) NSMutableArray *listItem;
 
 @end
 
